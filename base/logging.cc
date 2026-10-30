@@ -116,6 +116,8 @@ typedef FILE* FileHandle;
 
 namespace logging {
 
+// Git Vault lazy-history check: a one-line change on a file with long history.
+
 namespace {
 
 int g_min_log_level = 0;
